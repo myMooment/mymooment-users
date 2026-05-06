@@ -1,7 +1,7 @@
-import ComingSoon from "./pages/ComingSoon";
+import { LandingPage } from './features/landing/LandingPage';
 
 function App() {
-  return <ComingSoon />;
+  return <LandingPage />;
 }
 
 export default App;

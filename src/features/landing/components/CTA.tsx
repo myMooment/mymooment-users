@@ -1,4 +1,4 @@
-import { Sparkles, Tag, ShieldCheck, Headphones } from 'lucide-react';
+import { Sparkles, Tag, Headphones } from 'lucide-react';
 import { Container } from '../../../components/ui/Container';
 
 export function CTA() {
@@ -10,7 +10,6 @@ export function CTA() {
           {/* Confetti & Stars Background Decoration */}
           <div className="absolute top-12 left-10 w-2.5 h-2.5 rounded-sm bg-[#FF0066] rotate-45 opacity-80 animate-pulse" />
           <div className="absolute top-[20%] right-[40%] w-3 h-3 rounded-full bg-purple-400 opacity-60 blur-[1px]" />
-          <div className="absolute bottom-20 left-[30%] w-2 h-2 rounded-full bg-pink-400 opacity-80" />
           <div className="absolute top-[15%] right-[10%] w-2.5 h-2.5 bg-purple-300 rounded-sm rotate-12 opacity-60" />
           <div className="absolute bottom-[30%] right-[15%] w-3 h-3 rounded-sm bg-[#FF0066] rotate-45 opacity-70" />
           <div className="absolute top-[40%] left-[5%] w-1.5 h-1.5 rounded-full bg-white opacity-40" />
@@ -76,18 +75,6 @@ export function CTA() {
                  </div>
                </div>
                
-               <div className="hidden sm:block w-px h-8 bg-white/10" />
-
-               <div className="flex items-center gap-3">
-                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                    <ShieldCheck className="w-4 h-4 text-[#d8b4fe]" />
-                 </div>
-                 <div className="flex flex-col">
-                    <span className="text-xs font-bold text-white leading-tight mb-0.5">Secure</span>
-                    <span className="text-[10px] text-slate-400">& reliable</span>
-                 </div>
-               </div>
-
                <div className="hidden sm:block w-px h-8 bg-white/10" />
 
                <div className="flex items-center gap-3">

@@ -4,10 +4,9 @@ import { Container } from '../../../components/ui/Container';
 import { Link, useLocation } from 'react-router-dom';
 
 const NAV_LINKS = [
-  { label: 'Categories', href: '#categories' },
+  { label: 'Categories', href: '#events' },
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'Features', href: '#features' },
-  { label: 'For Partners', href: 'https://partner.mymooment.com' },
 ];
 
 export function Navbar() {

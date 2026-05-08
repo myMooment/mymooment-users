@@ -101,29 +101,7 @@ export function Hero() {
               </button>
             </div>
 
-            {/* Trust Section (Social Proof) */}
-            <div className="flex items-center gap-4 hover:translate-x-2 transition-transform cursor-default">
-              <div className="flex -space-x-3">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full border-2 border-[#8F004F] overflow-hidden bg-slate-200 shadow-md">
-                    <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="User" className="w-full h-full object-cover" />
-                  </div>
-                ))}
-                <div className="w-8 h-8 rounded-full border-2 border-[#8F004F] bg-white flex items-center justify-center text-[9px] font-bold text-[#8F004F] z-10 shadow-md">
-                  10K+
-                </div>
-              </div>
-              <div className="flex flex-col drop-shadow-md">
-                <span className="text-xs font-semibold text-white/95 leading-tight">
-                  Trusted by 10,000+<br />happy celebrations
-                </span>
-                <div className="flex items-center gap-1 mt-0.5">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="w-3 h-3 fill-[#FFDE00] text-[#FFDE00]" />
-                  ))}
-                </div>
-              </div>
-            </div>
+
 
           </div>
 

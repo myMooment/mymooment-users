@@ -34,42 +34,15 @@ export function HowItWorks() {
                 From shortlisting to celebration, we make every step effortless so you can enjoy every moment.
               </p>
               
-              {/* Button */}
-              <button className="flex items-center gap-3 px-6 py-3.5 rounded-full bg-[#FF0066] text-white font-bold text-base hover:bg-[#E6005C] transition-colors shadow-lg shadow-pink-200 group mb-10">
-                Start Planning Now 
-                <div className="bg-white rounded-full p-1 group-hover:translate-x-1 transition-transform">
-                  <ArrowRight className="w-3 h-3 text-[#FF0066] stroke-[3]" />
-                </div>
-              </button>
-              
-              {/* Trust avatars */}
-              <div className="flex flex-col gap-2.5">
-                <div className="flex -space-x-2.5">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden bg-slate-200 shadow-sm">
-                      <img src={`https://i.pravatar.cc/100?img=${i + 40}`} alt="User" className="w-full h-full object-cover" />
-                    </div>
-                  ))}
-                  <div className="w-8 h-8 rounded-full border-2 border-white bg-[#FFF0F6] flex items-center justify-center text-[9px] font-bold text-[#FF0066] z-10 shadow-sm">
-                    10K+
-                  </div>
-                </div>
-                <p className="text-xs font-semibold text-[#0F172A]">
-                  Trusted by <span className="text-slate-500 font-medium">10,000+ customers</span>
-                </p>
-                <div className="flex items-center gap-0.5">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="w-3.5 h-3.5 fill-[#FFB800] text-[#FFB800]" />
-                  ))}
-                </div>
-              </div>
+
+
             </ScrollReveal>
           </div>
 
           {/* Right Column (Timeline & Cards) */}
           <div className="lg:w-[68%] relative mt-10 lg:mt-0">
             {/* Vertical Gradient Line (Timeline) */}
-            <div className="absolute left-[27px] top-6 bottom-6 w-[2px] bg-gradient-to-b from-[#FF0066] via-[#8B5CF6] to-[#F97316] hidden md:block z-0" />
+            <div className="absolute left-[27px] top-6 bottom-[150px] w-[2px] bg-gradient-to-b from-[#FF0066] via-[#8B5CF6] to-[#F97316] hidden md:block z-0" />
 
             <div className="flex flex-col gap-8 lg:gap-10">
               

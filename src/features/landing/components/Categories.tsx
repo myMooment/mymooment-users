@@ -1,4 +1,4 @@
-import { Utensils, Camera, MapPin, Music, Gift, LayoutGrid, Palette, Flower2, Sparkles } from 'lucide-react';
+import { Utensils, Camera, MapPin, Music, Gift, Palette, Flower2, Sparkles } from 'lucide-react';
 import { Container } from '../../../components/ui/Container';
 import { ScrollReveal } from '../../../components/ui/ScrollReveal';
 
@@ -84,9 +84,6 @@ export function Categories() {
               Find the perfect professionals to make every celebration unforgettable.
             </p>
           </div>
-          <button className="flex items-center gap-2 px-6 py-3 rounded-full border border-slate-200 text-[#0F172A] font-bold hover:bg-slate-50 transition-colors whitespace-nowrap shadow-sm h-fit">
-            View all categories
-          </button>
         </ScrollReveal>
 
         {/* Categories Grid */}
@@ -132,26 +129,13 @@ export function Categories() {
         </div>
 
         {/* Bottom Banner */}
-        <ScrollReveal animation="spring-up" delay={200} className="mt-12 bg-[#FFF0F6] rounded-[24px] md:rounded-full p-6 md:px-10 md:py-6 flex flex-col md:flex-row items-center justify-between gap-6 border border-pink-100/50">
-          <div className="flex items-center gap-6 w-full md:w-auto">
-            <div className="relative shrink-0 hidden sm:block">
-              <Sparkles className="w-5 h-5 text-pink-300 absolute -top-2 -left-2" />
-              <div className="w-14 h-14 bg-[#FF0066] rounded-full flex items-center justify-center shadow-lg shadow-pink-200">
-                <LayoutGrid className="w-6 h-6 text-white" />
-              </div>
-            </div>
-            <div>
-              <h3 className="text-[#0F172A] text-lg md:text-xl font-extrabold mb-1">
-                More amazing categories coming soon!
-              </h3>
-              <p className="text-slate-600 text-sm md:text-base font-medium">
-                We're constantly adding new services to serve you better.
-              </p>
-            </div>
-          </div>
-          <button className="flex items-center justify-center gap-2 text-[#FF0066] font-bold hover:gap-3 transition-all whitespace-nowrap bg-white/60 hover:bg-white px-8 py-3.5 rounded-full w-full md:w-auto shadow-sm">
-            Explore more
-          </button>
+        <ScrollReveal animation="spring-up" delay={200} className="mt-12 bg-[#FFF0F6] rounded-[24px] md:rounded-full p-6 md:px-10 md:py-6 flex flex-col items-center justify-center text-center border border-pink-100/50">
+          <h3 className="text-[#0F172A] text-lg md:text-xl font-extrabold mb-1">
+            More amazing categories coming soon!
+          </h3>
+          <p className="text-slate-600 text-sm md:text-base font-medium">
+            We're constantly adding new services to serve you better.
+          </p>
         </ScrollReveal>
       </Container>
     </section>

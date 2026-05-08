@@ -1,4 +1,4 @@
-import { ArrowRight, Utensils, Camera, MapPin, Music, Gift, LayoutGrid, Palette, Flower2, Sparkles } from 'lucide-react';
+import { Utensils, Camera, MapPin, Music, Gift, LayoutGrid, Palette, Flower2, Sparkles } from 'lucide-react';
 import { Container } from '../../../components/ui/Container';
 import { ScrollReveal } from '../../../components/ui/ScrollReveal';
 
@@ -85,7 +85,7 @@ export function Categories() {
             </p>
           </div>
           <button className="flex items-center gap-2 px-6 py-3 rounded-full border border-slate-200 text-[#0F172A] font-bold hover:bg-slate-50 transition-colors whitespace-nowrap shadow-sm h-fit">
-            View all categories <ArrowRight className="w-4 h-4 text-[#FF0066]" />
+            View all categories
           </button>
         </ScrollReveal>
 
@@ -124,7 +124,6 @@ export function Categories() {
                     {category.description}
                   </p>
                   <div className="flex justify-end mt-4">
-                    <ArrowRight className="w-4 h-4 text-[#FF0066] transition-transform group-hover:translate-x-1" strokeWidth={3} />
                   </div>
                 </div>
               </div>
@@ -151,7 +150,7 @@ export function Categories() {
             </div>
           </div>
           <button className="flex items-center justify-center gap-2 text-[#FF0066] font-bold hover:gap-3 transition-all whitespace-nowrap bg-white/60 hover:bg-white px-8 py-3.5 rounded-full w-full md:w-auto shadow-sm">
-            Explore more <ArrowRight className="w-4 h-4" strokeWidth={3} />
+            Explore more
           </button>
         </ScrollReveal>
       </Container>

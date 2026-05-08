@@ -1,4 +1,4 @@
-import { Users, Zap, ShieldCheck, LayoutGrid, ArrowRight, ChevronRight, Lock, Utensils, Camera, Wine, MapPin, Headphones, Gift, Sparkles } from 'lucide-react';
+import { Users, Zap, ShieldCheck, LayoutGrid, ChevronRight, Lock, Utensils, Camera, Wine, MapPin, Headphones, Gift, Sparkles } from 'lucide-react';
 import { Container } from '../../../components/ui/Container';
 import { ScrollReveal } from '../../../components/ui/ScrollReveal';
 
@@ -41,10 +41,6 @@ export function Features() {
               <p className="text-[13px] text-slate-500 font-medium leading-relaxed mb-6 flex-grow">
                 Trusted and reviewed professionals for every celebration.
               </p>
-              {/* Button */}
-              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-purple-50 text-purple-600 hover:bg-purple-100 hover:scale-110 transition-all cursor-pointer">
-                <ArrowRight className="w-4 h-4 stroke-[3]" />
-              </div>
             </div>
           </ScrollReveal>
 
@@ -79,10 +75,6 @@ export function Features() {
               <p className="text-[13px] text-slate-500 font-medium leading-relaxed mb-6 flex-grow">
                 Book your favorite vendors instantly without endless calls or follow-ups.
               </p>
-              {/* Button */}
-              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-emerald-50 text-emerald-600 hover:bg-emerald-100 hover:scale-110 transition-all cursor-pointer">
-                <ArrowRight className="w-4 h-4 stroke-[3]" />
-              </div>
             </div>
           </ScrollReveal>
 
@@ -125,10 +117,6 @@ export function Features() {
               <p className="text-[13px] text-slate-500 font-medium leading-relaxed mb-6 flex-grow">
                 100% secure and transparent payment process. Your safety is our priority.
               </p>
-              {/* Button */}
-              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-blue-50 text-blue-600 hover:bg-blue-100 hover:scale-110 transition-all cursor-pointer">
-                <ArrowRight className="w-4 h-4 stroke-[3]" />
-              </div>
             </div>
           </ScrollReveal>
 
@@ -167,10 +155,6 @@ export function Features() {
               <p className="text-[13px] text-slate-500 font-medium leading-relaxed mb-6 flex-grow">
                 Everything you need for your event, all in one simple and smart platform.
               </p>
-              {/* Button */}
-              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-orange-50 text-orange-600 hover:bg-orange-100 hover:scale-110 transition-all cursor-pointer">
-                <ArrowRight className="w-4 h-4 stroke-[3]" />
-              </div>
             </div>
           </ScrollReveal>
 

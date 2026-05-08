@@ -33,7 +33,10 @@ export function Hero() {
   return (
     <section
       className="relative overflow-hidden pt-24 pb-12 md:pt-28 md:pb-16 font-['Plus_Jakarta_Sans',sans-serif] bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/herobg.png')" }}
+      style={{ 
+        backgroundColor: '#D70067', // Fast-loading fallback pink color
+        backgroundImage: "url('/herobg.png')" 
+      }}
     >
       <Container className="relative z-10">
 

@@ -1,86 +1,76 @@
+import { Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../components/Logo';
 import { Container } from '../../../components/ui/Container';
-
-const FOOTER_LINKS = {
-  Company: [
-    { label: 'About Us', href: '#about' },
-    { label: 'Careers', href: '#' },
-    { label: 'Blog', href: '#' },
-    { label: 'Contact Us', href: '#' },
-  ],
-  'For Vendors': [
-    { label: 'Become a Partner', href: 'https://partner.mymooment.com' },
-    { label: 'Vendor Dashboard', href: '#' },
-    { label: 'Resources', href: '#' },
-  ],
-  Legal: [
-    { label: 'Privacy Policy', href: '/privacy' },
-    { label: 'Terms & Conditions', href: '/terms' },
-    { label: 'Refund Policy', href: '/refund-policy' },
-    { label: 'Vendor Agreement', href: '/vendor-agreement' },
-    { label: 'Payment & Settlement Policy', href: '/payment-policy' },
-  ],
-};
 
 export function Footer() {
   return (
-    <footer className="bg-slate-950 text-white pt-16 pb-8" role="contentinfo">
+    <footer className="bg-[#121212] pt-20 pb-8 font-['Plus_Jakarta_Sans',sans-serif]">
       <Container>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 pb-12 border-b border-white/10">
-          {/* Brand */}
-          <div className="col-span-2 md:col-span-1">
-            <Logo className="mb-0 justify-start" textClass="text-xl" iconClass="inline w-8 h-8 text-red-500 mx-0.5" />
-            <p className="mt-4 text-sm text-slate-400 leading-relaxed max-w-xs">
-              India's smartest event booking platform. Creating memorable experiences with comfort, trust, and simplicity.
+        <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-24 pb-16 border-b border-white/10">
+          
+          {/* Brand Info (Left) */}
+          <div className="flex flex-col max-w-[260px]">
+            {/* Logo */}
+            <Link to="/" className="text-[28px] font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#A855F7] to-[#FF0066] pb-1">
+              myMooment
+            </Link>
+            <p className="mt-4 text-[13px] text-[#A3A3A3] leading-[1.6] font-medium">
+              Browse, Select and book trusted event services all at your fingertips.
             </p>
-            <a
-              href="mailto:support@mymooment.com"
-              className="mt-3 inline-block text-sm text-blue-400 hover:text-blue-300 transition-colors font-medium"
-            >
-              support@mymooment.com
-            </a>
+            {/* Social Icons */}
+            <div className="mt-6 flex items-center gap-3">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#262626] hover:bg-[#333333] transition-colors flex items-center justify-center text-[#A3A3A3] hover:text-white">
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-[#262626] hover:bg-[#333333] transition-colors flex items-center justify-center text-[#A3A3A3] hover:text-white">
+                <Linkedin className="w-4 h-4" />
+              </a>
+            </div>
           </div>
 
-          {/* Link Columns */}
-          {Object.entries(FOOTER_LINKS).map(([title, links]) => (
-            <div key={title}>
-              <h4 className="text-xs font-bold tracking-wider uppercase text-slate-300 mb-5">
-                {title}
-              </h4>
-              <ul className="space-y-3">
-                {links.map((link) => (
-                  <li key={link.label}>
-                    {link.href.startsWith('/') ? (
-                      <Link
-                        to={link.href}
-                        className="text-sm text-slate-400 hover:text-white transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    ) : (
-                      <a
-                        href={link.href}
-                        className="text-sm text-slate-400 hover:text-white transition-colors"
-                      >
-                        {link.label}
-                      </a>
-                    )}
-                  </li>
-                ))}
+          {/* Links Grid (Right) */}
+          <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-8">
+            {/* Company */}
+            <div className="flex flex-col">
+              <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">Company</h4>
+              <ul className="space-y-4">
+                <li><Link to="#about" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">About Us</Link></li>
+                <li><Link to="#contact" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Contact Us</Link></li>
               </ul>
             </div>
-          ))}
+
+            {/* For Customers */}
+            <div className="flex flex-col">
+              <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">For Customers</h4>
+              <ul className="space-y-4">
+                <li><Link to="#services" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Explore Services</Link></li>
+                <li><Link to="#how-it-works" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">How it Works</Link></li>
+                <li><Link to="#download" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Download App</Link></li>
+              </ul>
+            </div>
+
+            {/* For Partners */}
+            <div className="flex flex-col">
+              <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">For Partners</h4>
+              <ul className="space-y-4">
+                <li><a href="https://partner.mymooment.com" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Become a Partner</a></li>
+                <li><a href="https://partner.mymooment.com/login" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Partner Login</a></li>
+              </ul>
+            </div>
+          </div>
+
         </div>
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between pt-8">
-          <p className="text-xs text-slate-500 font-medium">
+        <div className="flex flex-col md:flex-row items-center justify-between pt-8 gap-4">
+          <p className="text-[12px] text-[#737373] font-medium">
             © {new Date().getFullYear()} myMooment. All rights reserved.
           </p>
-          <p className="text-xs text-slate-500 font-medium mt-3 md:mt-0 flex items-center gap-1.5">
-            Made with ❤️ in India
-          </p>
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <Link to="/privacy" className="text-[12px] text-[#737373] hover:text-[#A3A3A3] font-medium transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="text-[12px] text-[#737373] hover:text-[#A3A3A3] font-medium transition-colors">Terms & Conditions</Link>
+            <Link to="/refund-policy" className="text-[12px] text-[#737373] hover:text-[#A3A3A3] font-medium transition-colors">Refund Policy</Link>
+          </div>
         </div>
       </Container>
     </footer>

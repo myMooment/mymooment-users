@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LandingPage } from './features/landing/LandingPage';
+import { AboutUs } from './pages/AboutUs';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Terms } from './pages/Terms';
 import { RefundPolicy } from './pages/RefundPolicy';
@@ -13,6 +14,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />

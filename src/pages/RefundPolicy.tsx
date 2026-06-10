@@ -5,7 +5,7 @@ export function RefundPolicy() {
   return (
     <LegalLayout 
       title="Refund & Cancellation Policy"
-      lastUpdated="May 2026"
+      lastUpdated="10 June 2026"
       markdownContent={refundPolicy}
     />
   );

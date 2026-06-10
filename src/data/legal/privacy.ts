@@ -1,146 +1,158 @@
 export const privacyPolicy = `
-Welcome to myMooment (“we”, “our”, “us”). We are committed to protecting your personal information and your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, website, and Menu's.
+## 1. Introduction
 
-By using our platform, you agree to the terms of this Privacy Policy.
+Welcome to myMooment. We value your privacy and are committed to protecting your personal information.
 
----
+This Privacy Policy explains how we collect, use, process, store, and protect the information you provide while accessing or using the myMooment website, mobile application, and related services.
 
-### 1. Information We Collect
+By accessing, registering, or using the Platform, you acknowledge that you have read, understood, and agree to this Privacy Policy. If you do not agree with this Privacy Policy, you should discontinue using the Platform.
 
-We collect information based on how you use our platform:
-
-**Customer Information**
-- Name, phone number, email address
-- Event details such as date, location, and preferences
-- Location data (to show nearby Menu's and improve experience)
-
-**Vendor Information**
-- Name or business name
-- Contact details
-- Bank account details (for payouts)
-- PAN and GST details (if applicable)
-
-**Booking & Transaction Information**
-- Booking details
-- Payment amount and transaction references
-- Order and transaction history
-
-**Device & Usage Information**
-- Device type, operating system
-- IP address
-- App usage and interaction data
+myMooment collects only the information necessary to provide its services, improve user experience, comply with applicable laws, maintain Platform security, and facilitate interactions between customers and Partners.
 
 ---
 
-### 2. How We Use Your Information
+## 2. Information We Collect
 
-We use your information to:
+### For Customers
 
-- Facilitate bookings between customers and vendors
-- Process payments and manage transactions
-- Share booking details between customers and vendors for service fulfillment
+We collect only the information necessary to provide our services, including:
+
+- Full Name
+- Mobile Number
+- Device Type
+
+### For Partners
+
+For onboarding, verification, compliance, and operational purposes, we may collect:
+
+- Business Name
+- Business Address
+- GST Information (if applicable)
+- PAN Information (where applicable)
+- Bank Account Details
+- Verification Documents
+- Tax-related Information
+
+Only information necessary for operating the Platform and complying with applicable laws may be collected.
+
+---
+
+## 3. Purpose of Collection
+
+We may use your information to:
+
+- Create and manage your account
+- Verify Partner eligibility and documents
+- Provide Platform services
+- Facilitate communication
+- Process transactions
+- Generate reports
+- Prevent fraud and misuse
+- Maintain Platform security
+- Comply with applicable legal and regulatory obligations
 - Provide customer support
-- Send booking updates, notifications, and service-related communications (including SMS, email, or WhatsApp)
-- Improve our platform and Menu's
-- Comply with legal and regulatory requirements
+- Improve and develop our services
 
 ---
 
-### 3. Sharing of Information
+## 4. Partner Information
 
-We may share your information in the following cases:
+Partners may be required to submit business and verification information for onboarding and operational purposes.
 
-**Between Customers and Vendors**
-- Customer details are shared with vendors to fulfill bookings
-- Vendor details may be shared with customers for service delivery
+Submission of such information does not guarantee approval on the Platform.
 
-**With Service Providers**
-- Payment gateway partners
-- Cloud storage providers
-- Analytics Menu's
-
-**Legal Requirements**
-- When required by law, regulation, or legal process
-
-We do not sell your personal data to third parties.
+myMooment reserves the right to verify, review, approve, reject, suspend, or request additional information or documents whenever necessary.
 
 ---
 
-### 4. Payments & Financial Data
+## 5. Payment Information
 
-Payments are processed through secure third-party payment gateways. We do not store sensitive financial data such as card numbers, CVV, or UPI PINs.
+Payments made through the Platform may be processed using authorized third-party payment service providers.
 
-We may store transaction IDs, payment status, and related records for accounting, support, and compliance purposes.
+myMooment may maintain transaction-related information such as:
 
----
+- Transaction Reference Number
+- Payment Status
+- Payment Amount
+- Payment Date and Time
 
-### 5. Data Retention
-
-We retain your information only as long as necessary to:
-
-- Provide our Menu's
-- Comply with legal and regulatory obligations
-- Resolve disputes and enforce agreements
-
-After this period, your data may be securely deleted or anonymized.
+myMooment does not intentionally store complete debit card, credit card, or internet banking credentials.
 
 ---
 
-### 6. Data Security
+## 6. Information Sharing
 
-We implement reasonable technical and organizational measures to protect your information. However, no system is completely secure, and we cannot guarantee absolute security.
+We may share information only when necessary:
 
----
+- With Partners for providing Platform services
+- With authorized payment service providers
+- With technology and infrastructure service providers
+- With government authorities or regulatory bodies where required by applicable law
 
-### 7. User Rights
-
-You have the right to:
-
-- Access your personal data
-- Request correction of inaccurate information
-- Request deletion of your account and data
-
-To exercise these rights, contact us using the details below.
+myMooment does not sell users' personal information to third parties.
 
 ---
 
-### 8. Cookies & Tracking Technologies
+## 7. Data Security
 
-We may use cookies or similar technologies to improve user experience, analyze performance, and personalize content. You can manage these through your device or browser settings.
+We implement reasonable administrative, technical, and organizational measures to protect information against unauthorized access, misuse, alteration, disclosure, or destruction.
 
----
-
-### 9. Third-Party Menu's
-
-Our platform may include third-party Menu's such as payment gateways and analytics tools. These Menu's operate under their own privacy policies, and we are not responsible for their practices.
+However, no method of electronic storage or transmission over the internet is completely secure, and absolute security cannot be guaranteed.
 
 ---
 
-### 10. Children’s Privacy
+## 8. User Responsibilities
 
-Our Menu's are not intended for individuals under the age of 18. We do not knowingly collect personal data from minors.
+Users and Partners are responsible for:
 
----
+- Providing accurate information
+- Updating information whenever changes occur
+- Maintaining the confidentiality of their account credentials
+- Protecting their devices and login details
 
-### 11. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Updates will be posted within the app or website with a revised “Last Updated” date.
-
----
-
-### 12. Jurisdiction
-
-This Privacy Policy shall be governed by and interpreted in accordance with the laws of India.
+myMooment shall not be responsible for losses arising from unauthorized access resulting from user negligence.
 
 ---
 
-### 13. Contact & Grievance Officer
+## 9. Cookies and Analytics
 
-If you have any questions, concerns, or complaints regarding this Privacy Policy, you may contact us:
+The Platform may use cookies, analytics tools, and similar technologies to improve functionality, understand user behavior, measure performance, and enhance the overall user experience.
 
-Email: support@mymooment.com
-Address: [Your Company Address]
+Users may manage certain browser settings related to cookies; however, disabling such features may affect Platform functionality.
 
-Grievance Officer: [Name]
-Email: [Grievance Email]
+---
+
+## 10. Third-Party Services
+
+The Platform may integrate with third-party services including payment gateways, cloud infrastructure providers, authentication services, communication services, and analytics providers.
+
+Such third-party services operate under their own terms and privacy policies.
+
+---
+
+## 11. Children's Privacy
+
+The Platform is intended only for individuals who are legally capable of entering into a binding agreement under applicable law.
+
+If information is found to have been collected contrary to applicable legal requirements, myMooment may take appropriate steps to remove such information.
+
+---
+
+## 12. Changes to this Privacy Policy
+
+myMooment reserves the right to modify this Privacy Policy at any time.
+
+The updated version shall become effective upon publication on the official website. Continued use of the Platform after such changes constitutes acceptance of the revised Privacy Policy.
+
+---
+
+## 13. Limitation of Responsibility
+
+While myMooment takes reasonable measures to protect information, it shall not be liable for unauthorized access, data loss, or security incidents arising from circumstances beyond its reasonable control, including third-party failures, cyberattacks, or force majeure events.
+
+---
+
+## 14. Contact
+
+For any questions, concerns, or requests relating to this Privacy Policy, users and Partners may contact myMooment through the official contact details available on the Platform or the official website.
 `;

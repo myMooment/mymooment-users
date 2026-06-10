@@ -5,7 +5,7 @@ export function PrivacyPolicy() {
   return (
     <LegalLayout 
       title="Privacy Policy"
-      lastUpdated="May 2026"
+      lastUpdated="10 June 2026"
       markdownContent={privacyPolicy}
     />
   );

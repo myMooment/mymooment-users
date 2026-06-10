@@ -1,107 +1,47 @@
 export const refundPolicy = `
-This Refund & Cancellation Policy explains how cancellations and refunds are handled for bookings made through myMooment (“Platform”, “we”, “our”, “us”).
+## 1. Cancellation Policy
 
-By making a booking on the platform, you agree to this policy.
+Customers may cancel their booking before the scheduled event time through the Platform, subject to the applicable terms and conditions.
 
----
+Once the scheduled event time has commenced or the service has been delivered, cancellation requests may not be accepted.
 
-## 1. Nature of Menu's
-
-myMooment facilitates bookings for event-based Menu's provided by independent vendors.
-
-- Menu's are time-bound and scheduled
-- Once a booking is confirmed, vendors allocate time, resources, and inventory
+myMooment reserves the right to restrict or refuse cancellations in cases of misuse, fraud, or repeated policy violations.
 
 ---
 
-## 2. Advance Payment
+## 2. Refund Policy
 
-- Customers pay an advance amount (e.g., 30%) at the time of booking through the platform
-- The remaining amount is paid directly to the vendor
-- Refunds apply only to the advance amount paid through the platform
+Unless otherwise required by applicable law or expressly approved by myMooment, all payments made through the Platform are final and non-refundable.
 
----
-
-## 3. Cancellation by Customer
-
-Refund eligibility depends on the time of cancellation relative to the scheduled event date and time.
-
-### More than 96 hours (4 days) before the event
-- 100% of the advance amount is refundable (excluding platform fees, if applicable)
+Cancellation of a booking does not automatically entitle the customer to a refund.
 
 ---
 
-### Between 48 to 96 hours before the event
-- 50% of the advance amount is refundable
-- Remaining 50% is retained as a cancellation charge
+## 3. Payment Failures
+
+If a payment fails but the amount is debited from the customer's account, the resolution shall be subject to the payment gateway and the respective banking institution's processing timelines.
+
+Customers are advised to wait for the applicable processing period before raising a support request.
 
 ---
 
-### Less than 48 hours before the event
-- No refund will be provided
-- Full advance amount is retained
+## 4. Duplicate Transactions
 
----
-
-## 4. Cancellation by Vendor
-
-If a vendor cancels the booking:
-
-- Customer will receive a 100% refund of the advance amount (including platform fees, if applicable)
-- Platform may assist in finding an alternative vendor, subject to availability
+In the event of a duplicate payment for the same transaction due to a technical error, myMooment may investigate the matter and, where appropriate, process a resolution after verification.
 
 ---
 
 ## 5. Refund Processing
 
-- Refunds are processed to the original payment method
-- Refunds are typically initiated within 24–48 hours of cancellation
-- It may take 3–7 working days for the refund to reflect in the customer’s account, depending on the payment provider
+Refunds, where applicable, are processed to the original payment method within the timelines specified by the payment gateway and banking institutions.
+
+myMooment shall not be liable for delays in refund processing caused by third-party payment providers or financial institutions.
 
 ---
 
-## 6. Platform Fees
+## 6. Policy Updates
 
-- Platform service fees are non-refundable unless:
-  - The vendor cancels the booking, or
-  - Required by applicable law
+myMooment reserves the right to modify this Refund & Cancellation Policy at any time.
 
-- Any applicable deductions will be displayed before confirmation of cancellation
-
----
-
-## 7. Partial Refund Scope
-
-- Refund percentages apply only to the advance amount paid through the platform
-- Any payments made directly to the vendor are outside the platform’s scope and must be handled directly with the vendor
-
----
-
-## 8. No-Show & Service Issues
-
-- If a customer fails to be available at the scheduled event time, it will be treated as a late cancellation (less than 48 hours)
-- Any service-related issues must be reported within 24 hours of the event
-
----
-
-## 9. Force Majeure
-
-In case of unforeseen circumstances beyond control (including natural disasters, government restrictions, or emergencies):
-
-- Refunds or rescheduling may be evaluated on a case-by-case basis
-
----
-
-## 10. Changes to This Policy
-
-We may update this policy from time to time. Continued use of the platform constitutes acceptance of the updated policy.
-
----
-
-## 11. Contact Us
-
-For refund-related queries:
-
-Email: support@mymooment.com
-Address: [Your Company Address]
+The revised policy shall become effective upon publication on the official website, and continued use of the Platform shall constitute acceptance of the updated policy.
 `;

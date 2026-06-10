@@ -31,7 +31,7 @@ export function Footer() {
             <div className="flex flex-col">
               <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">Company</h4>
               <ul className="space-y-4">
-                <li><Link to="#about" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">About Us</Link></li>
+                <li><Link to="/about" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">About Us</Link></li>
                 <li><Link to="#contact" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Contact Us</Link></li>
               </ul>
             </div>

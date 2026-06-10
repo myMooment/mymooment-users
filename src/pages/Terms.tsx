@@ -5,7 +5,7 @@ export function Terms() {
   return (
     <LegalLayout 
       title="Terms & Conditions"
-      lastUpdated="May 2026"
+      lastUpdated="10 June 2026"
       markdownContent={termsAndConditions}
     />
   );

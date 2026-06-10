@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Container } from '../../../components/ui/Container';
 
@@ -19,17 +19,14 @@ export function Footer() {
             </p>
             {/* Social Icons */}
             <div className="mt-6 flex items-center gap-3">
-              <a href="#" className="w-10 h-10 rounded-full bg-[#262626] hover:bg-[#333333] transition-colors flex items-center justify-center text-[#A3A3A3] hover:text-white">
-                <Instagram className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#262626] hover:bg-[#333333] transition-colors flex items-center justify-center text-[#A3A3A3] hover:text-white">
+              <a href="https://www.linkedin.com/company/mymooment" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#262626] hover:bg-[#333333] transition-colors flex items-center justify-center text-[#A3A3A3] hover:text-white">
                 <Linkedin className="w-4 h-4" />
               </a>
             </div>
           </div>
 
           {/* Links Grid (Right) */}
-          <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Company */}
             <div className="flex flex-col">
               <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">Company</h4>
@@ -39,22 +36,11 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* For Customers */}
-            <div className="flex flex-col">
-              <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">For Customers</h4>
-              <ul className="space-y-4">
-                <li><Link to="#services" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Explore Services</Link></li>
-                <li><Link to="#how-it-works" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">How it Works</Link></li>
-                <li><Link to="#download" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Download App</Link></li>
-              </ul>
-            </div>
-
             {/* For Partners */}
             <div className="flex flex-col">
               <h4 className="text-[15px] font-bold text-white mb-6 tracking-tight">For Partners</h4>
               <ul className="space-y-4">
-                <li><a href="https://partner.mymooment.com" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Become a Partner</a></li>
-                <li><a href="https://partner.mymooment.com/login" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Partner Login</a></li>
+                <li><a href="https://mypartner.mymooment.com" target="_blank" rel="noopener noreferrer" className="text-[13px] font-medium text-[#A3A3A3] hover:text-white transition-colors">Become a Partner</a></li>
               </ul>
             </div>
           </div>
